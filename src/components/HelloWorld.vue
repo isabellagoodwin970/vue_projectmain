@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      Bella's Web Project https://github.com/ciaobellala/summerproject/tree/e164cc0b3730cefa1c0b738afc29c338fac5a564
+      Bella's Web Project 
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
     </h3>
