@@ -9,7 +9,7 @@ defineProps<{
     <h1 class="purple">{{ msg }}</h1>
     <h3>
       Bella's Web Project 
-      <a href="https://www.instagram.com/baked._.bybella/" target="_blank" rel="noopener">Baking Instagram</a> 
+      <a href="https://www.instagram.com/baked._.bybella/" target="_blank" rel="noopener"><img src="./assets/logoInsta.svg" alt="Baking Instagram" width="100" height="132"></a> 
     </h3>
   </div>
 </template>
