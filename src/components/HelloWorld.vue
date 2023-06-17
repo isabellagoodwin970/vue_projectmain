@@ -9,8 +9,7 @@ defineProps<{
     <h1 class="purple">{{ msg }}</h1>
     <h3>
       Bella's Web Project 
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      <a href="https://www.instagram.com/baked._.bybella/" target="_blank" rel="noopener">Baking Instagram</a> 
     </h3>
   </div>
 </template>
