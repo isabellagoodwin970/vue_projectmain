@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+
 </script>
 
 <template>
+  
   <header>
     <img alt="butterfly logo" class="logo" src="./assets/logob.svg" width="170" height="170" />
 
@@ -11,8 +13,9 @@ import TheWelcome from './components/TheWelcome.vue'
       <HelloWorld msg="Bella Goodwin's Website" />
     </div>
   </header>
-
+  
   <main>
+    
     <TheWelcome />
   </main>
 </template>

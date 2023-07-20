@@ -58,6 +58,7 @@
   font-weight: normal;
 }
 
+
 body {
   min-height: 100vh;
   color: var(--color-text);
@@ -80,11 +81,11 @@ ul {
   background-color:rgb(255, 216, 255);
   height:100%;
   position:fixed;
-  width:fit-content;
 }
 
 li {
   float: left;
+  
 }
 
 li a, .dropbtn {
