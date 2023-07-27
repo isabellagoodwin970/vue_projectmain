@@ -1,10 +1,8 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-
+  padding: 0;
   font-weight: normal;
 }
 
@@ -21,15 +19,75 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
+
   body {
     display: flex;
-    place-items: center;
+    background-color:aqua;
   }
 
   #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    padding: 0 0;
   }
-}
+
+  header {
+    line-height: 1.5;
+    
+  }
+  
+  
+  @media (min-width: 1024px) {
+    header {
+      display: flex;
+      place-items: center;
+      padding-right: calc(var(--section-gap) / 2);
+      
+    }
+  
+    .logo {
+      margin: 0 1rem 1rem 1rem;
+      display: block;
+    }
+
+    .butterfly {
+      margin: 0 1rem 1rem 1rem;
+    }
+  
+    header .wrapper {
+      display: flex;
+      place-items: flex-start;
+      flex-wrap: wrap;
+      margin-left: 2rem 0;
+    }
+  }
+  
+  /* flexbox container */
+  .containerBox {
+      display:flex;
+      flex-wrap:wrap;
+  }
+  
+  .containerBox > * {
+      width:100%;
+      padding:0;
+  }
+  
+  
+  .containerBox > .header {
+    background:#d3a3d0;
+    height:100px;
+  }
+  .containerBox > .header {order:-2; /* header first */}
+  
+  .containerBox > .main-content {
+      background:#faf4fc;
+      min-height: 87vh;
+  }
+  .containerBox > .main-content {width:calc(100% - 185px);}
+  
+  .containerBox > .left-sidebar {background:#faf4fc}
+  .containerBox > .left-sidebar { 
+      order:-1; /* left sidebar before main content */ 
+      width: 185px;;
+  }
+  
+  .containerBox > .footer {background:#c1bdc2;height:100px;}

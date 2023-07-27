@@ -8,8 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="purple">{{ msg }}</h1>
     <h3>
-      Baked By Bella 
-      <a href="https://www.instagram.com/baked._.bybella/" target="_blank" rel="noopener"><img alt="Baking Instagram" class="logo" src="/src/assets/logoInsta.svg"  width="75" height="75"></a> 
+      Baked By Bella <a href="https://www.instagram.com/baked._.bybella/" target="_blank" rel="noopener"><img alt="Baking Instagram" class="logo" src="/src/assets/logoInsta.svg"  width="75" height="75"></a> 
     </h3>
   </div>
 </template>
@@ -19,10 +18,12 @@ h1 {
   font-weight: 500;
   font-size: 2.6rem;
   top: -10px;
+  margin-top: 2em;
 }
 
 h3 {
   font-size: 1.2rem;
+  margin-bottom: 1em;
 }
 
 .greetings h1,
